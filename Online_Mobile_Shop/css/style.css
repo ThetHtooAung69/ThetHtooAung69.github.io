@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar ul{
+    float: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_brand{
+    display: inline-block;
+}
+
+.navbar{
+    padding: 30px;
+}
+
+.nav_brand a{
+    text-decoration: none;
+    font-size: 25px;
+    color: cyan;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover{
+    color: cyan;
+    letter-spacing: 5px;
+    transition-duration: .9s;
+}
+
+.cart_noti{
+    position: relative;
+    bottom: 13px;
+    background-color: black;
+    color: antiquewhite;
+    display: inline-block;
+    width: 16px;
+    text-align: center;
+    left: -6px;
+    border-radius: 50%;
+}
+
+.bunner_image{
+    width: 100%;
+    height: 500px;
+}
+
+.bunner_text{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.shop_now{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+.shop_now:hover{
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.bunner_header{
+    margin-bottom: 10px;
+}
+
+.category_title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.category . center a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.category{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.catagory .center a:hover{
+    background-color: #60b3c5;
+    color: white;
+    border: 1px solid #60b3c5;
+}
+
+.title{
+    border-left: 4px solid #60b3c5;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding-left: 30px;
+}
+
+.new_arrival{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    margin: 10px 60px;
+    grid-row-gap: 10px;
+}
+
+.new_arrival img{
+
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.new_arrival p{
+    margin: 5px;
+}
+
+
+.blog{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.blog_image{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    transition-duration: 1s;
+}
+.calender{
+    color: #60b3c5;
+    padding-left: 15px;
+}
+.readmore{
+    text-decoration: none;
+    color: #60b3c5;
+    padding-left: 15px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.blog div{
+    box-shadow: -5px 10px 10px rgba(183, 179, 179, 0.15);
+}
+.blog div h3{
+    padding: 0px 15px;
+    text-align: justify;
+}
+.image_zoom{
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+}
+.blog_image:hover{
+    transform: scale(1.3);
+}
+
+
+/* available*/
+/* 
+.available{
+    display: inline-block;
+    background-image: url(../images/iphone13pro.jpg);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+/*
+.available:hover{
+    background-image:url();
+    z-index: 2;
+}  */
+
+
+.more_item{
+    margin-top: 50px;
+    display:block;
+    color: #60b3c5;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+/*  */
+.support{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top:70px;
+    background-color: rgb(230, 228, 228);
+    padding: 30px;
+}
+.support div p{
+    display: inline-block;
+    padding-left: 20px;
+}
+.support div p span{
+    font-weight: bolid;
+    display: block;
+    font-size: 20px;
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    padding-top: 40px;
+   
+}
+.footer center a{
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    margin: 20px 15px;
+}
+.designedby{
+    color: grey;
+}
+.footer_icon{
+    color: gray;
+    padding: 10px 0px 40px;
+}
+
+/* About  */
+.about_title{
+    color: #60b3c5;
+    text-align: center;
+    margin: 20px;
+}
+.about_image img{
+    width: 500px;
+    height: 300px;
+    padding: 10px 60px 10px 60px;
+    float: left;
+
+
+}
+.about_story{
+   padding: 50px 100px 20px 100px;
+   word-spacing: 3px;
+   
+}
+.about_clear{
+    clear: both;
+}
+.about_grid{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.about_para2{
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgb(223, 242, 247);
+    color: #60b3c5;
+    box-shadow: -5px 10px 10px rgb(206, 208, 208);
+}
+.about_para_color{
+    background-color: #60b3c5;
+    color: white;
+    box-shadow: -5px 10px 10px rgb(206, 208, 208);
+
+}
+.about_para2 h2{
+    margin: 10px 0 10px 0;
+}
+
+
+/* Contact */
+.contact_grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+.contact_grid div h2{
+    padding: 0px 0px 30px 0 ;
+}
+.contact{
+    background-color: #60b3c5;
+    color: white;
+
+}
+.contact div{
+    margin:40px;
+}
+.contact p{
+    padding: 20px 0;
+}
+.contact_form{
+    margin: 40px;
+}
+.contact_form label, input,button,textarea{
+    margin: 10px 0;
+}
+.contact_form input{
+    border-color: rgb(198, 198, 198);
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgb(150, 146, 146);
+    width: 100%;
+    height: 20px;
+
+}
+.contact_form textarea{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(198, 198, 198);
+    border-bottom-color: rgb(104, 99, 99);
+
+}
+.button{
+    color: white;
+    background-color: #60b3c5;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    outline-color: #60b3c5;
+    border-color: #60b3c5;
+
+}
+
+/* product */
+.product_catagory{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.product_catagory h2{
+    background-color: #60b3c5;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+ }
+.product_catagory li a{
+    text-align: center;
+    display: inline-block;
+    margin: 10px 50px 10px 100px;
+    color: #60b3c5;
+}
+.product_catagory a{
+    color: #60b3c5;
+    text-decoration: none;
+
+}
+.type_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+}
+.type_grid div{
+    margin: 10px;
+}
+.type_grid div p{
+text-align: center;
+    padding: 5px;
+}
+
+/* service page */
+.service_p{
+    margin: 10px 0 10px 115px;
+}
+.service_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+.icon{
+    color: #60b3c5;
+    padding: 0px 0px 15px 0px;
+}
+.service_grid div{
+    padding: 15px 0px 15px 115px;
+}
